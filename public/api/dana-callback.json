@@ -1,10 +1,16 @@
 {
-  "responseCode": "2005500",
-  "responseMessage": "SUCCESS",
+  "response": {
+    "resultInfo": {
+      "resultStatus": "S",
+      "resultCodeId": "2005600",
+      "resultCode": "SUCCESS",
+      "resultMsg": "Success to be processed"
+    }
+  },
   "resultInfo": {
     "resultStatus": "S",
-    "resultCodeId": "00000000",
+    "resultCodeId": "2005600",
     "resultCode": "SUCCESS",
-    "resultMsg": "Success"
+    "resultMsg": "Success to be processed"
   }
 }
