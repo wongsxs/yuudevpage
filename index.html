@@ -49,20 +49,31 @@
             
             <div class="hero-preview">
                 <div class="neo-card hero-card">
-                    <div class="card-header" style="margin-bottom: 12px;">
+                    <div class="card-header" style="margin-bottom: 12px; display:flex; justify-content:space-between; align-items:center;">
                         <span class="badge badge-yellow">LIVE DEMO KIOSK</span>
+                        <span style="font-size:0.75rem; font-weight:800; color:var(--text-secondary);">⚡ INTERAKTIF</span>
                     </div>
-                    <div class="screen-preview">
-                        <div class="preview-box" style="background:#0f172a; padding:20px; border-radius:10px; color:#fff; text-align:center;">
-                            <div style="font-size:2rem; margin-bottom:10px;">📸⚡</div>
-                            <p style="font-weight:700; margin-bottom:10px;">Photobox Ready to Snap!</p>
-                            <div style="display:flex; justify-content:center; gap:8px;">
-                                <div style="background:#e2e8f0; color:#0f172a; padding:10px; border-radius:6px; font-size:0.8rem;">Pose 1</div>
-                                <div style="background:#e2e8f0; color:#0f172a; padding:10px; border-radius:6px; font-size:0.8rem;">Pose 2</div>
-                                <div style="background:#e2e8f0; color:#0f172a; padding:10px; border-radius:6px; font-size:0.8rem;">Pose 3</div>
-                                <div style="background:#e2e8f0; color:#0f172a; padding:10px; border-radius:6px; font-size:0.8rem;">Pose 4</div>
+                    
+                    <div class="kiosk-demo-box">
+                        <div class="camera-viewfinder">
+                            <div id="demo-flash" class="flash-effect"></div>
+                            <div id="demo-countdown" class="countdown-overlay">3</div>
+                            <div id="demo-viewfinder-icon" style="font-size:2.5rem; margin-bottom:6px;">📸⚡</div>
+                            <div id="demo-viewfinder-text" style="font-weight:700; font-size:0.9rem; color:#f8fafc;">
+                                Photobox Ready to Snap!
                             </div>
                         </div>
+
+                        <div class="pose-slots-grid">
+                            <div class="pose-slot">Pose 1</div>
+                            <div class="pose-slot">Pose 2</div>
+                            <div class="pose-slot">Pose 3</div>
+                            <div class="pose-slot">Pose 4</div>
+                        </div>
+
+                        <button id="start-kiosk-demo-btn" class="btn btn-yellow btn-full btn-sm">
+                            📸 MULAI SIMULASI FOTO DEMO
+                        </button>
                     </div>
                 </div>
             </div>
