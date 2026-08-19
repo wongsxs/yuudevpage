@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photobox Self Service | Kiosk Self-Service Modern & E-Voucher QRIS</title>
     <meta name="description" content="Photobox Self Service resmi oleh YuuDev. Sesi foto otomatis, cetak cetakan HD, Live GIF Animation, dan E-Voucher QRIS Dinamis & DANA.">
-    <meta name="keywords" content="Photobox, Self Service, QRIS Dinamis, DANA, Photo Booth, YuuDev, E-Voucher, DS34193">
+    <meta name="keywords" content="Photobox, Self Service, QRIS Dinamis, DANA, Photo Booth, YuuDev, E-Voucher">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,6 @@
                 <a href="#products">Katalog & Produk</a>
                 <a href="#features">Fitur</a>
                 <a href="#how-it-works">Cara Kerja</a>
-                <a href="#payment">Pembayaran</a>
                 <a href="terms.html">Syarat & Ketentuan</a>
                 <a href="privacy.html">Privasi</a>
                 <a href="contact.html" class="btn btn-sm btn-yellow">Hubungi Kami</a>
@@ -45,10 +44,6 @@
                 <div class="hero-cta">
                     <a href="#products" class="btn btn-yellow">Beli Voucher Online</a>
                     <a href="#features" class="btn btn-cyan">Jelajahi Fitur</a>
-                </div>
-                <div class="merchant-badge">
-                    <span class="status-dot"></span>
-                    <span>Verified Merchant Project: <strong>DS34193</strong> (Domain: <code>yuudev.page2.id</code>)</span>
                 </div>
             </div>
             
@@ -202,45 +197,6 @@
         </div>
     </section>
 
-    <!-- Payment Integration Spec Section -->
-    <section id="payment" class="payment-spec">
-        <div class="container">
-            <div class="neo-card spec-card">
-                <div class="spec-grid">
-                    <div class="spec-text">
-                        <div class="badge badge-cyan">🔒 SECURE PAYMENT GATEWAY</div>
-                        <h2>Integrasi Pembayaran Resmi & Terenkripsi</h2>
-                        <p>Sistem Kiosk Photobox Self-Service terhubung langsung ke Gateway Pembayaran Resmi (DANA Enterprise & Payment Gateway) untuk menjamin transaksi aman, transparan, dan terenkripsi MD5 / SHA256.</p>
-                        
-                        <div class="spec-items">
-                            <div class="spec-item">
-                                <strong>Merchant Code:</strong> <code>DS34193</code>
-                            </div>
-                            <div class="spec-item">
-                                <strong>Domain Resmi:</strong> <code>yuudev.page2.id</code>
-                            </div>
-                            <div class="spec-item">
-                                <strong>Callback Webhook Endpoint:</strong> <a href="api/callback.json" style="color:var(--accent-pink); font-weight:bold;">https://yuudev.page2.id/api/callback.json</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spec-logos" style="margin-top:20px;">
-                        <div class="payment-methods-grid">
-                            <span class="method-tag" style="background:#008ce6; color:#fff;">DANA Enterprise</span>
-                            <span class="method-tag">QRIS</span>
-                            <span class="method-tag">Gopay</span>
-                            <span class="method-tag">OVO</span>
-                            <span class="method-tag">ShopeePay</span>
-                            <span class="method-tag">BCA Mobile</span>
-                            <span class="method-tag">Livin Mandiri</span>
-                            <span class="method-tag">BRImo</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Interactive Checkout Modal -->
     <div id="checkout-modal" class="modal">
         <div class="modal-content neo-card">
@@ -279,13 +235,12 @@
             </form>
 
             <div id="payment-result" class="payment-result text-center" style="display:none;">
-                <div class="badge badge-green">⚡ INQUIRY QRIS SUCCESS</div>
-                <h3>Scan QRIS Di Bawah Ini:</h3>
+                <div class="badge badge-green">⚡ INQUIRY SUCCESS</div>
+                <h3>Scan QRIS / Pembayaran Di Bawah Ini:</h3>
                 <div class="qr-placeholder">
                     <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=00020101021226670016COM.DUITKU.WWW0118936009180000034193021500000000000341930303UME51440014ID.CO.QRIS.WWW0215ID10200341930000303UME5204581253033605405100005802ID5921PHOTOBOX+SELF+SERVICE6013JAKARTA+SELATAN61051211062070703A01630489AB" alt="QRIS Demo">
                 </div>
                 <p class="qr-sub">Order ID: <strong id="merchant-order-id">PHOTOBOX-1786790000</strong></p>
-                <div class="merchant-notice">✨ Terhubung ke Gateway Pembayaran Merchant DS34193</div>
                 <button class="btn btn-cyan btn-full btn-close-payment" style="margin-top:15px;">Tutup Halaman Checkout</button>
             </div>
         </div>
@@ -299,8 +254,7 @@
                     <span class="logo-icon">📸</span>
                     <span class="logo-text">PHOTOBOX<span class="highlight">SELFSERVICE</span></span>
                 </a>
-                <p style="margin-top:12px; font-size:0.9rem; color:var(--text-secondary);">Platform Kiosk Photobox Self Service Modern berbasis Android Kiosk & Payment Gateway (DANA & QRIS).</p>
-                <div style="margin-top:12px;" class="badge badge-green">Verified Merchant DS34193</div>
+                <p style="margin-top:12px; font-size:0.9rem; color:var(--text-secondary);">Platform Kiosk Photobox Self Service Modern berbasis Android Kiosk & Instant Payment.</p>
             </div>
             
             <div class="footer-col">
@@ -320,12 +274,11 @@
                 <p>Email CS: <strong>developeryuuu@gmail.com</strong></p>
                 <p>WhatsApp CS: <strong>+62 887-1053-430</strong></p>
                 <p>Domain Resmi: <strong>yuudev.page2.id</strong></p>
-                <p>Callback API: <strong>yuudev.page2.id/api/callback.json</strong></p>
             </div>
         </div>
 
         <div class="footer-bottom text-center">
-            <p>&copy; 2026 Photobox Self-Service oleh YuuDev. Hak Cipta Dilindungi Undang-Undang. Verifikasi Merchant DS34193.</p>
+            <p>&copy; 2026 Photobox Self-Service oleh YuuDev. Hak Cipta Dilindungi Undang-Undang.</p>
         </div>
     </footer>
 
