@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/callback.json", "destination": "/api/callback.js" },
+    { "source": "/api/callback", "destination": "/api/callback.js" },
+    { "source": "/api/dana/callback.json", "destination": "/api/dana/callback.js" },
+    { "source": "/api/dana/callback", "destination": "/api/dana/callback.js" },
+    { "source": "/api/dana-callback.json", "destination": "/api/dana/callback.js" },
+    { "source": "/api/dana.json", "destination": "/api/dana/callback.js" }
+  ]
+}
