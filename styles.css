@@ -317,6 +317,26 @@ section {
     margin-bottom: 16px;
 }
 
+/* FAQ Section */
+.faq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq-item h3 {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.faq-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
 /* Modal */
 .modal {
     display: none;
