@@ -1,0 +1,10 @@
+{
+  "resultInfo": {
+    "resultStatus": "S",
+    "resultCodeId": "00000000",
+    "resultCode": "SUCCESS",
+    "resultMsg": "DANA Enterprise Webhook Callback Endpoint Ready"
+  },
+  "partnerId": "DANA_ENTERPRISE",
+  "status": "SUCCESS"
+}
